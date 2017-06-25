@@ -1,0 +1,41 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+input{
+    height: 70%;
+    border:none;
+    margin:0;
+    padding: 0;
+}
+#search{
+    background-color: #00394f;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+#search:hover{
+    background-color: white;
+    color: #00394f;
+    
+}
+#search{
+    padding:5px;
+}
+.suggestcontain{
+    display: flex;
+    justify-content: space-around;
+}

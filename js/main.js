@@ -1,4 +1,4 @@
-document.body.querySelector("#search").addEventListener("keyup", function(){
+document.body.querySelector("#moviename").addEventListener("keyup", function(){
     showHint(this.value);
 });
 function showHint(str) {
